@@ -124,7 +124,7 @@ if __name__ == "__main__":
         " "
     )
     for i in range(numbersCount):
-        numbers.append(int(inputNumbers[i]))
+        numbers.append(float(inputNumbers[i]))
     for i in range(max([numbersCount / 10, 5])):
         groups = CreateGroups(groupsCount, numbers)
         tree = Tree(groups)
